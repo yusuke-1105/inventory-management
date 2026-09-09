@@ -226,11 +226,11 @@ export default {
 
 <style scoped>
 .page-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--space-5);
 }
 
 .page-header h2 {
-  margin-bottom: 0.25rem;
+  margin-bottom: var(--space-1);
 }
 
 .page-header p {
@@ -242,8 +242,8 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1.25rem 1.5rem;
+  gap: var(--space-5);
+  padding: 1.25rem var(--space-5);
   border-bottom: 1px solid #e2e8f0;
 }
 
@@ -319,7 +319,7 @@ export default {
 
 .loading,
 .error {
-  padding: 2rem;
+  padding: var(--space-6);
   text-align: center;
   color: #64748b;
 }
