@@ -31,7 +31,7 @@
         <div class="card-header">
           <h3 class="card-title">Backlog Items</h3>
         </div>
-        <div v-if="backlogItems.length === 0" style="padding: 3rem; text-align: center;">
+        <div v-if="backlogItems.length === 0" style="padding: var(--space-7); text-align: center;">
           <p style="font-size: 1.125rem; color: #10b981; font-weight: 600;">
             ✓ No backlog items - all orders can be fulfilled!
           </p>
